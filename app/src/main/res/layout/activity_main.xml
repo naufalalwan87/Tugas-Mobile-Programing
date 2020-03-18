@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/masjid"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMART MASJID"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="40dp"
+            android:layout_marginTop="40dp" />
+
+    <Button
+            android:id="@+id/identitas"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Identitas Masjid"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp" />
+
+    <Button
+            android:id="@+id/jadwal"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Jadwal Sholat"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+    <Button
+            android:id="@+id/marquee"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Marquee"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+    <Button
+            android:id="@+id/pengumuman"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Pengumuman"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+    <Button
+            android:id="@+id/slideshow"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Slideshow"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+    <Button
+            android:id="@+id/tagline"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Tagline"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+</LinearLayout>
